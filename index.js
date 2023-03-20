@@ -1,4 +1,4 @@
-import calculate from "./JS/calculate.js";
+import calculate from "./calculate.js";
 import copyToClipboard from "./JS/copyToClipboard.js";
 import {
   handleButtonPress,

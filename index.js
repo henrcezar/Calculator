@@ -1,11 +1,11 @@
 import calculate from "./calculate.js";
-import copyToClipboard from "./JS/copyToClipboard.js";
+import copyToClipboard from "./copyToClipboard.js";
 import {
   handleButtonPress,
   handleClear,
   handleTyping,
-} from "./JS/keyHandlres.js";
-import switchTheme from "./JS/themeSwitcher.js";
+} from "./keyHandlres.js";
+import switchTheme from "./themeSwitcher.js";
 
 document.querySelectorAll(".charKey").forEach(function (charKeyBtn) {
   charKeyBtn.addEventListener("click", handleButtonPress);
